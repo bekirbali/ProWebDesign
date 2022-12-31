@@ -110,20 +110,6 @@ a.home {
   margin: 15px 0;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-  padding: 1rem;
-  background-color: #35424a;
-}
-
-footer p {
-  color: white;
-  margin-top: 1rem;
-}
-
 .html img {
   transition: 1s ease-in-out;
 }
@@ -146,4 +132,18 @@ footer p {
 
 .graphic img:hover {
   transform: scale(1.4);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  padding: 1rem;
+  background-color: #35424a;
+}
+
+footer p {
+  color: white;
+  margin-top: 1rem;
 }
