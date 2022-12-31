@@ -123,3 +123,27 @@ footer p {
   color: white;
   margin-top: 1rem;
 }
+
+.html img {
+  transition: 1s ease-in-out;
+}
+
+.html img:hover {
+  transform: scale(1.4);
+}
+
+.css img {
+  transition: 1s ease-in-out;
+}
+
+.css img:hover {
+  transform: scale(1.4);
+}
+
+.graphic img {
+  transition: 1s ease-in-out;
+}
+
+.graphic img:hover {
+  transform: scale(1.4);
+}
