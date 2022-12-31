@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.title a {
+  color: white;
+}
+
+a.home {
+  color: #a9508b;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  color: white;
+  background-color: #35424a;
+  padding: 2rem;
+  border-bottom: 1px solid magenta;
+}
+
+.nav h1 {
+  font-size: 1.5rem;
+}
+
+.nav span {
+  color: #a9508b;
+}
+
+.about,
+.services {
+  color: white;
+}
+
+.right-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.right input {
+  padding: 0.5rem;
+  border: none;
+}
+
+.right button {
+  padding: 0.5rem;
+  background-color: #e8491d;
+  color: white;
+  border: none;
+}
+
+.right button:hover {
+  cursor: pointer;
+  background-color: #ee562c;
+}
+
+.image {
+  background-image: url(./img/showcase.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  color: white;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.image p {
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #35424a;
+  color: white;
+  padding: 1.4rem;
+}
+
+.language {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  height: 250px;
+}
+
+.language img {
+  width: 80px;
+}
+
+.language h3 {
+  margin: 15px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  padding: 1rem;
+  background-color: #35424a;
+}
+
+footer p {
+  color: white;
+}
