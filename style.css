@@ -17,6 +17,11 @@ a.home {
   color: #a9508b;
 }
 
+header {
+  position: sticky;
+  top: 0px;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -69,6 +74,7 @@ a.home {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   height: 400px;
   display: flex;
   justify-content: center;
