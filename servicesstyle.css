@@ -9,6 +9,10 @@ body {
   position: relative;
 }
 
+input:focus {
+  outline: none;
+}
+
 .title a {
   color: white;
 }
@@ -105,7 +109,7 @@ a.services {
 }
 
 .main-box .left-box .card-3 {
-  margin-bottom: 6rem;
+  margin-bottom: 7rem;
 }
 
 .main-box .right-box {
@@ -168,4 +172,5 @@ footer {
 
 footer p {
   color: white;
+  margin-top: 1rem;
 }

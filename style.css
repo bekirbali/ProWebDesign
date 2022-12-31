@@ -5,6 +5,10 @@
   text-decoration: none;
 }
 
+input:focus {
+  outline: none;
+}
+
 .title a {
   color: white;
 }
@@ -117,4 +121,5 @@ footer {
 
 footer p {
   color: white;
+  margin-top: 1rem;
 }
