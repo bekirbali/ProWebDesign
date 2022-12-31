@@ -95,11 +95,12 @@ a.home {
 
 .language {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  text-align: center;
   padding: 1rem;
   height: 250px;
+  text-align: center;
+  /* gap: 2rem; */
 }
 
 .language img {
@@ -110,6 +111,10 @@ a.home {
   margin: 15px 0;
 }
 
+.html {
+  flex: 33%;
+}
+
 .html img {
   transition: 1s ease-in-out;
 }
@@ -118,12 +123,20 @@ a.home {
   transform: scale(1.4);
 }
 
+.css {
+  flex: 33%;
+}
+
 .css img {
   transition: 1s ease-in-out;
 }
 
 .css img:hover {
   transform: scale(1.4);
+}
+
+.graphic {
+  flex: 33%;
 }
 
 .graphic img {
